@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOTBall Academy</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__inner">
+
+            <div id="button" class="header__toggle" id="toggle">
+                <span class="header__toggle-line"></span>
+                <span class="header__toggle-line"></span>
+                <span class="header__toggle-line"></span>
+            </div>
+
+            <div id="menu" class="header__breadcrumbs">
+                <ul class="header__breadcrumbs-list">
+                    <li class="header__breadcrumbs-item header__breadcrumbs-item--home">
+                        <a class="header__breadcrumbs-link" href="">
+                            <img src="img/home.svg" alt="home">
+                        </a>
+                    </li>
+
+                    <li class="header__breadcrumbs-item">
+                        <a class="header__breadcrumbs-link" href="">
+                            шаг 1
+                        </a>
+                    </li>
+                    <li class="header__breadcrumbs-item">
+                        <a class="header__breadcrumbs-link" href="">
+                            шаг 2
+                        </a>
+                    </li>
+                    <li class="header__breadcrumbs-item">
+                        <a class="header__breadcrumbs-link header__breadcrumbs-link--active" href="">
+                            шаг 3
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="" class="header__logo">
+                <img class="header__logo-img" src="img/logo.svg" alt="logo">
+            </a>
+
+            <div class="header__profile">
+                <div id="profile-btn" class="header__profile-btn" href="">
+                    <div class="header__profile-toggle">
+                        <span class="header__profile-toggle-line"></span>
+                        <span class="header__profile-toggle-line"></span>
+                        <span class="header__profile-toggle-line"></span>
+                    </div>
+
+                    <img class="header__profile-icon" src="img/profile.svg" alt="profile">
+                </div>
+            </div>
+
+            <div id="profile-menu" class="header__profile-menu">
+                <a class="header__profile-menu-link" href="">
+                    Профиль
+                </a>
+
+                <a class="header__profile-menu-link" href="">
+                    Настройка
+                </a>
+
+                <a class="header__profile-menu-link" href="">
+                    Log out
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section">
+            <div class="hero-block">
+                <div class="hero-block__desc">
+                    <p>FOOTBALL ACADEMY предлагает отличную возможность для начала карьеры в Испании молодым футболистам с 14 до 20 лет, поступив в Академию футбола высокого уровня с проживанием и обучением в общеобразовательной школе при спортивном интернате Академии в Паленсии. В Академии каждого ждет индивидуальный подход к таланту игрока и его развитию.В футбольной Академии Palencia Football Academy предусмотрены две программы пребывания. Долгосрочная программа – это полноценное годовое обучение и краткосрочная программа – трехмесячный курс обучения.</p>
+                </div>
+
+                <div class="hero-block__title-wrapper">
+                    <h1 class="hero-block__title">FOOTBALL <br>ACADEMY</h1>
+                </div>
+
+                <div class="carousel">
+                    <div class="carousel__inner">
+                        <div class="carousel__slide">
+                            <picture>
+                                <source
+                                    srcset="/img/hero-slide-1-lg.png"
+                                    media="(min-width: 1200px)" type="image/png">
+                                <img src="/img/hero-slide-1-sm.png"
+                                    srcset="/img/hero-slide-1-sm.png"
+                                    class="carousel__img"
+                                    alt="slide 1">
+                            </picture>
+                        </div>
+                        <div class="carousel__slide">
+                            <picture>
+                                <source
+                                    srcset="/img/hero-slide-2-lg.png"
+                                    media="(min-width: 1200px)" type="image/png">
+                                <img src="/img/hero-slide-2-sm.png"
+                                    srcset="/img/hero-slide-2-sm.png"
+                                    class="carousel__img"
+                                    alt="slide 2">
+                            </picture>
+                        </div>
+                        <div class="carousel__slide">
+                            <picture>
+                                <source
+                                    srcset="/img/hero-slide-3-lg.png"
+                                    media="(min-width: 1200px)" type="image/png">
+                                <img src="/img/hero-slide-3-sm.png"
+                                    srcset="/img/hero-slide-3-sm.png"
+                                    class="carousel__img"
+                                    alt="slide 3">
+                            </picture>
+                        </div>
+                    </div>
+        
+                    <div class="carousel__control">
+                        <div class="carousel__pagination">
+                            <span class="carousel__dot carousel__dot--active"></span>
+                            <span class="carousel__dot"></span>
+                            <span class="carousel__dot"></span>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--form">
+            <h3 class="section__title">Заполните форму для  поступления</h3>
+            <div class="form-block">
+                <div class="dropdown dropdown--age">
+                    <a class="dropdown__btn">
+                        Возраст
+                        <img class="dropdown__icon" src="img/arrow-up.svg" alt="arrow">
+                    </a>
+        
+                    <div class="dropdown__content">
+                        <label class="dropdown__radio">
+                            Возраст
+                            <input type="radio" name="radio" value="option1">
+                            <span class="dropdown__radio-mark"></span>
+                        </label>
+        
+                        <label class="dropdown__radio">
+                            Возраст
+                            <input type="radio" name="radio" value="option2">
+                            <span class="dropdown__radio-mark"></span>
+                        </label>
+        
+                        <label class="dropdown__radio">
+                            Возраст
+                            <input type="radio" name="radio" value="option3">
+                            <span class="dropdown__radio-mark"></span>
+                        </label>
+        
+                        <label class="dropdown__radio">
+                            Возраст
+                            <input type="radio" name="radio" value="option4">
+                            <span class="dropdown__radio-mark"></span>
+                        </label>
+        
+                        <label class="dropdown__radio">
+                            Возраст
+                            <input type="radio" name="radio" value="option5">
+                            <span class="dropdown__radio-mark"></span>
+                        </label>
+        
+                        <label class="dropdown__radio">
+                            Возраст
+                            <input type="radio" name="radio" value="option6">
+                            <span class="dropdown__radio-mark"></span>
+                        </label>
+                    </div>  
+                </div>
+
+                <div class="dropdown dropdown--skill">
+                    <a class="dropdown__btn">
+                        Чему хочу научиться
+                        <img class="dropdown__icon" src="img/arrow-up.svg" alt="arrow">
+                    </a>
+        
+                    <div class="dropdown__content">
+                        <label class="dropdown__checkbox">
+                            <input type="checkbox" value="option1">
+                            <span class="dropdown__mark"></span>
+                            Навык
+                        </label>
+        
+                        <label class="dropdown__checkbox">
+                            <input type="checkbox" value="option2">
+                            <span class="dropdown__mark"></span>
+                            Навык
+                        </label>
+        
+                        <label class="dropdown__checkbox">
+                            <input type="checkbox" value="option3">
+                            <span class="dropdown__mark"></span>
+                            Навык
+                        </label>
+        
+                        <label class="dropdown__checkbox">
+                            <input type="checkbox" value="option4">
+                            <span class="dropdown__mark"></span>
+                            Навык
+                        </label>
+                        
+                        <label class="dropdown__checkbox">
+                            <input type="checkbox" value="option5">
+                            <span class="dropdown__mark"></span>
+                            Навык
+                        </label>
+        
+                        <label class="dropdown__checkbox">
+                            <input type="checkbox" value="option6">
+                            <span class="dropdown__mark"></span>
+                            Навык
+                        </label>
+                    </div>  
+                </div>
+
+                <div class="skills">
+                    <h3 class="skills__title">Оцени свои навыки</h3>
+        
+                    <div class="rating">
+                        <div class="rating__item">
+                            <p class="rating__text">Дриблинг</p>
+                            <div class="rating__inner">
+                                <input class="rating__input" type="radio" id="star5-1" name="rating-1" value="5">
+                                <label class="rating__label" for="star5-1">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star4-1" name="rating-1" value="4">
+                                <label class="rating__label" for="star4-1">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star3-1" name="rating-1" value="3">
+                                <label class="rating__label" for="star3-1">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star2-1" name="rating-1" value="2">
+                                <label class="rating__label" for="star2-1">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star1-1" name="rating-1" value="1">
+                                <label class="rating__label" for="star1-1">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+            
+                        <div class="rating__item">
+                            <p class="rating__text">Пас</p>
+                            <div class="rating__inner">
+                                <input class="rating__input" type="radio" id="star5-2" name="rating-2" value="5">
+                                <label class="rating__label" for="star5-2">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star4-2" name="rating-2" value="4">
+                                <label class="rating__label" for="star4-2">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star3-2" name="rating-2" value="3">
+                                <label class="rating__label" for="star3-2">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star2-2" name="rating-2" value="2">
+                                <label class="rating__label" for="star2-2">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star1-2" name="rating-2" value="1">
+                                <label class="rating__label" for="star1-2">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+            
+                        <div class="rating__item">
+                            <p class="rating__text">Выносливость</p>
+                            <div class="rating__inner">
+                                <input class="rating__input" type="radio" id="star5-3" name="rating-3" value="5">
+                                <label class="rating__label" for="star5-3">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star4-3" name="rating-3" value="4">
+                                <label class="rating__label" for="star4-3">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star3-3" name="rating-3" value="3">
+                                <label class="rating__label" for="star3-3">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star2-3" name="rating-3" value="2">
+                                <label class="rating__label" for="star2-3">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star1-3" name="rating-3" value="1">
+                                <label class="rating__label" for="star1-3">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+            
+                        <div class="rating__item">
+                            <p class="rating__text">Удар</p>
+                            <div class="rating__inner">
+                                <input class="rating__input" type="radio" id="star5-4" name="rating-4" value="5">
+                                <label class="rating__label" for="star5-4">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star4-4" name="rating-4" value="4">
+                                <label class="rating__label" for="star4-4">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star3-4" name="rating-4" value="3">
+                                <label class="rating__label" for="star3-4">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star2-4" name="rating-4" value="2">
+                                <label class="rating__label" for="star2-4">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star1-4" name="rating-4" value="1">
+                                <label class="rating__label" for="star1-4">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+            
+                        <div class="rating__item">
+                            <p class="rating__text">Защита</p>
+                            <div class="rating__inner">
+                                <input class="rating__input" type="radio" id="star5-5" name="rating-5" value="5">
+                                <label class="rating__label" for="star5-5">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star4-5" name="rating-5" value="4">
+                                <label class="rating__label" for="star4-5">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star3-5" name="rating-5" value="3">
+                                <label class="rating__label" for="star3-5">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star2-5" name="rating-5" value="2">
+                                <label class="rating__label" for="star2-5">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star1-5" name="rating-5" value="1">
+                                <label class="rating__label" for="star1-5">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+            
+                        <div class="rating__item">
+                            <p class="rating__text">Навес</p>
+                            <div class="rating__inner">
+                                <input class="rating__input" type="radio" id="star5-6" name="rating-6" value="5">
+                                <label class="rating__label" for="star5-6">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star4-6" name="rating-6" value="4">
+                                <label class="rating__label" for="star4-6">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star3-6" name="rating-6" value="3">
+                                <label class="rating__label" for="star3-6">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star2-6" name="rating-6" value="2">
+                                <label class="rating__label" for="star2-6">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                    
+                                <input class="rating__input" type="radio" id="star1-6" name="rating-6" value="1">
+                                <label class="rating__label" for="star1-6">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.4417 2.9248L12.9083 5.85813C13.1083 6.26647 13.6417 6.65813 14.0917 6.73313L16.75 7.1748C18.45 7.45813 18.85 8.69147 17.625 9.90813L15.5583 11.9748C15.2083 12.3248 15.0167 12.9998 15.125 13.4831L15.7167 16.0415C16.1833 18.0665 15.1083 18.8498 13.3167 17.7915L10.825 16.3165C10.375 16.0498 9.63333 16.0498 9.175 16.3165L6.68333 17.7915C4.9 18.8498 3.81667 18.0581 4.28333 16.0415L4.875 13.4831C4.98333 12.9998 4.79167 12.3248 4.44167 11.9748L2.375 9.90813C1.15833 8.69147 1.55 7.45813 3.25 7.1748L5.90833 6.73313C6.35 6.65813 6.88333 6.26647 7.08333 5.85813L8.55 2.9248C9.35 1.33313 10.65 1.33313 11.4417 2.9248Z" fill="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="form">
+                    <div class="form__item">
+                        <label class="form__label" for="name">Имя Фамилия</label>
+                        <input class="form__input" type="text" id="name" onkeyup="validateForm()" placeholder="Please Input">
+                    </div>
+        
+                    <div class="form__item">
+                        <label class="form__label" for="email">E-mail</label>
+                        <input class="form__input" type="email" id="email" onkeyup="validateForm(); validateEmail()" placeholder="Please Input">
+                        <span id="email-error" class="form__item-error"></span>
+                    </div>
+            
+                    <div class="form__item">
+                        <label class="form__label" for="phone">Телефон</label>
+                        <input class="form__input" type="tel" id="phone" placeholder="+7">
+                        <span id="phone-error"></span>
+                    </div>
+        
+                    <div class="form__check">
+                        <label class="form__checkbox">
+                            <input type="checkbox" id="checkbox" onclick="validateForm()">
+                            <span class="form__mark"></span>
+                            <span class="form__checkbox-text">Я соглашаюсь с политикой персональных даных</span>
+                        </label>
+                    </div>
+        
+                    <button class="btn btn--primary" type="button" id="submit-btn" disabled>Отправить</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="section section--best-players">
+            <h3 class="section__title">Лучшие футболисты академии</h3>
+            <div class="players-block">
+
+                <div class="players-carousel">
+                    <div class="players-carousel__list">
+                      <div class="players-carousel__item" data-pos="-2">
+                        <div class="players-carousel__conetent">
+                            <p class="players-carousel__name">Гриша Поляков</p>
+                            <p class="players-carousel__age">10 лет</p>
+                        </div>
+                      </div>
+
+                      <div class="players-carousel__item" data-pos="-1">
+                        <div class="players-carousel__conetent">
+                            <p class="players-carousel__name">Саша Поляков</p>
+                            <p class="players-carousel__age">11 лет</p>
+                        </div>
+                      </div>
+
+                      <div class="players-carousel__item" data-pos="0">
+                        <div class="players-carousel__conetent">
+                            <p class="players-carousel__name">Миша Поляков</p>
+                            <p class="players-carousel__age">12 лет</p>
+                        </div>
+                      </div>
+
+                      <div class="players-carousel__item" data-pos="1">
+                        <div class="players-carousel__conetent">
+                            <p class="players-carousel__name">Вова Поляков</p>
+                            <p class="players-carousel__age">14 лет</p>
+                        </div>
+                      </div>
+
+                      <div class="players-carousel__item" data-pos="2">
+                        <div class="players-carousel__conetent">
+                            <p class="players-carousel__name">Дима Поляков</p>
+                            <p class="players-carousel__age">15 лет</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__nav">
+                <div class="footer__nav-item">
+                    <p class="footer__nav-head">Why Choose Us?</p>
+                    <div class="footer__nav-inner">
+                        <a class="footer__link" href="">Scale</a>
+                        <a class="footer__link" href="">Solutions</a>
+                        <a class="footer__link" href="">Our Competition</a>
+                        <a class="footer__link" href="">Channels</a>
+                        <a class="footer__link" href="">Events</a>
+                        <a class="footer__link" href="">Watch the Demo</a>
+                    </div>
+                </div>
+
+                <div class="footer__nav-item">
+                    <p class="footer__nav-head">Products</p>
+                    <div class="footer__nav-inner">
+                        <a class="footer__link" href="">Features</a>
+                        <a class="footer__link" href="">Integrations</a>
+                        <a class="footer__link" href="">Enterprise</a>
+                        <a class="footer__link" href="">Solutions</a>
+                    </div>
+                </div>
+
+                <div class="footer__nav-item">
+                    <p class="footer__nav-head">Products</p>
+                    <div class="footer__nav-inner">
+                        <a class="footer__link" href="">Features</a>
+                        <a class="footer__link" href="">Integrations</a>
+                        <a class="footer__link" href="">Enterprise</a>
+                        <a class="footer__link" href="">Solutions</a>
+                    </div>
+                </div>
+
+                <div class="footer__nav-item">
+                    <p class="footer__nav-head">Resources</p>
+                    <div class="footer__nav-inner">
+                        <a class="footer__link" href="">Community</a>
+                        <a class="footer__link" href="">Events</a>
+                        <a class="footer__link" href="">Help Center</a>
+                        <a class="footer__link" href="">Partners</a>
+                    </div>
+                </div>
+
+                <div class="footer__nav-item">
+                    <p class="footer__nav-head">Company</p>
+                    <div class="footer__nav-inner">
+                        <a class="footer__link" href="">Leadership</a>
+                        <a class="footer__link" href="">Careers</a>
+                        <a class="footer__link" href="">Investor Relations</a>
+                        <a class="footer__link" href="">Media Kit</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <img src="img/footer-logo.svg" alt="footer logo">
+                <p class="footer__rights">© 2023 Football. All Rights Reserved.</p>
+
+                <div class="footer__socials">
+                    <a href="#">
+                        <img src="img/fb.svg" alt="icon facebook">
+                    </a>
+
+                    <a href="#">
+                        <img src="img/g.svg" alt="icon google">
+                    </a>
+
+                    <a href="#">
+                        <img src="img/apple.svg" alt="icon apple">
+                    </a>
+
+                    <a href="#">
+                        <img src="img/ig.svg" alt="icon instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup__wrapper">
+            <p>Успех!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
